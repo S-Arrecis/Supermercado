@@ -52,5 +52,24 @@ class Empleado : Persona{
         return id_puesto;
     }
 
+     string get_Nombres(){
+        return nombres;
+    }
+
+    string get_apellidos(){
+        return apellidos;
+    }
+
+    string get_telefono(){
+        return telefono;
+    }
+
+    string get_fecha_ingreso(){
+        return fecha_ingreso;
+    }
+
+    char get_genero(){
+        return genero;
+    }
 
 };
