@@ -3,9 +3,9 @@ using namespace std;
 
 class Persona{
 
-    private : string nombres,apellidos,telefono,fecha_ingreso;
+    protected : string nombres,apellidos,telefono,fecha_ingreso;
 
-    private : char genero;
+    protected : char genero;
 
     public : Persona(){
 
